@@ -26,3 +26,8 @@ dist-ssr
 # Cloudflare Wrangler cache
 .wrangler/
 
+
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
