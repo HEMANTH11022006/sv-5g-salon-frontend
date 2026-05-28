@@ -18,7 +18,7 @@ export const createBooking = async (data) => {
 export const getBookings = async () => {
   const response = await fetch(`${API_BASE}/bookings`);
   if (!response.ok) {
-    throw new Error('Failed to load bookings.' + response.error);
+    throw new Error('Failed to load bookings.');
   }
   return response.json();
 };
